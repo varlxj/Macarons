@@ -19,3 +19,6 @@
 2. 安装[groovy-eclipse](https://github.com/groovy/groovy-eclipse)，页面中有具体介绍，在线安装地址见[wiki](https://github.com/groovy/groovy-eclipse/wiki)
 
 安装速度都比较慢，电信用户比较容易失败，没有VPN之类的，建议早晨安装，否则做好蛋疼的准备
+
+##改用IDEA了
+IDEA对Groovy的支持相当的好，不用折腾
