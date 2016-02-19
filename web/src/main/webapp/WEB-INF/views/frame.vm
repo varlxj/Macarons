@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>${title}</title>
+	<link rel="stylesheet" href="./static/lib/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./static/lib/awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="./static/css/base.css" />	
+	<link rel="stylesheet" href="./static/css/frame.css" />
+	<script type="text/javascript" src="./static/lib/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="./static/js/frame.js"></script>
+</head>
+<body>
+	<div class="navibar">
+		<div class="navibar-opt">
+			<ul>
+				<li>
+					 <i class="fa fa-envelope-o fa-lg"></i>
+				</li>
+				<li>
+				<a href="#"><img src="./static/header.png" class="header-img"/></a>
+				<a href="#">　管理员 <i class="fa fa-angle-down fa-lg"></i></a>
+				</li>
+			</ul>
+		</div>
+		<div class="navibar-info">${title}</div>
+	</div>
+	<div id="left">
+		<div class="sidebar">
+			<div>
+				<div class="sidebar-header">
+					<img src="./static/header.png" style="width:100%;height:100%;"/>
+				</div>
+				<div class="sidebar-info">
+					<dl>
+						<dt>李晓佳</dt>
+						<dd> <i class="fa fa-user"></i>　软件部</dd>
+					</dl>
+				</div>
+				<div class="sidebar-config"><i class="fa fa-gear fa-2x"></i></div>
+				<div style="clear:both;height:1px;overflow:hidden;"></div>
+			</div>
+			<ul>
+				<li class="group"><i class="fa fa-home left-icon"></i>基本概览</li>
+			</ul>
+			<ul>
+				<li class="group select"><i class="fa fa-gear left-icon"></i>系统设置<i class="fa fa-angle-down arrow-icon"></i></li>
+				<li>数据字典</li>
+				<li>菜单管理</li>
+			</ul>
+			<ul>
+				<li class="group select"><i class="fa fa-users left-icon"></i>权限配置<i class="fa fa-angle-right arrow-icon"></i></li>
+				<li>所有权限</li>
+				<li>部分管理</li>
+			</ul>
+		</div>
+	</div>
+	<div id="right">right</div>
+</body>
+</html>
