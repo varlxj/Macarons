@@ -154,6 +154,8 @@
 		</dependencies>
 	</dependencyManagement>
 
+	<!--如果需求使用Maven来编译可使用以下插件-->
+    <!--
 	<build>
 		<plugins>
 			<plugin>
@@ -178,5 +180,6 @@
 			</plugin>
 		</plugins>
 	</build>
+	-->
 	<version>0.0.1-SNAPSHOT</version>
 </project>
